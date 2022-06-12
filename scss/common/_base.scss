@@ -1,0 +1,59 @@
+@import "./../theme/variables";
+
+@import "./../../bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+
+.btn-outline-primary {
+    font-size: $text-sm !important;
+    color: $primary !important;
+    background-color: transparent !important;
+    font-weight: $text-bold !important;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open>.dropdown-toggle.btn-outline-primary {
+    color: $white !important;
+    background-color: $primary !important; 
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: $primary-color-light !important;
+    border-color: $primary-color-light !important;
+    color: $white !important;
+    font-size: 0.875rem !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: $primary-color-dark !important; 
+    border-color: #cf2952 !important;
+}
+
+// html {
+
+// }
+
+body {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    span {
+        // ,,,
+    }
+
+    h1 {
+        // ,,,,
+    }
+
+    p {
+        // ....
+    }
+
+    
+}
