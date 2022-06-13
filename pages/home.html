@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="page-header">
+    <!-- <header class="page-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
             <div class="container my-2">
                 <a class="navbar-brand fw-black text-primary" href="#">
@@ -59,18 +59,128 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </header> -->
 
-    <section class="get-started py-5">
+    <section class="get-started py-5 bg-white">
         <div class="container py-md-3 text-center">
             <div class="title-section text-center mx-auto">
-                <h6 class="sub-title">Ready to build</h6>
+                <!-- <h6 class="sub-title">Ready to build</h6> -->
                 <h3>Ready to build your own brand community?</h3>
-                <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis
+                <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+                    Nulla mollis
                     dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+            </div>
+            <div class="button-section mt-5">
+                <a href="contact.html" class="btn btn-outline-primary button-theme me-2">Book a Demo</a>
+                <a href="contact.html" class="btn btn-primary button-theme ms-2">Get Started</a>
             </div>
         </div>
     </section>
+
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3>Company</h3>
+                            <ul class="footer-link">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mt-md-0 mt-4">
+                            <h3>Useful Links</h3>
+                            <ul class="footer-link">
+                                <li><a href="#url">Case Studies</a></li>
+                                <li><a href="#url">Our Branches</a></li>
+                                <li><a href="#url">Latest Media</a></li>
+                                <li><a href="about.html">About Company</a></li>
+                                <li><a href="#url">Our People</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 mt-md-0 mt-4">
+                            <h3>Our Services</h3>
+                            <ul class="footer-link">
+                                <li><a href="#url">Privacy Policy</a></li>
+                                <li><a href="#url">Our Terms</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="landing-single.html">Landing Page</a></li>
+                                <li><a href="#url">Our People</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 ps-lg-5 mt-lg-0 mt-5">
+                    <h3>Newsletter </h3>
+                    <div class="footer-form">
+                        <h4>Get latest updates and offers.</h4>
+                        <form action="#" class="subscribe" method="post">
+                            <input type="email" name="email" placeholder="Email Address" required="">
+                            <button type="submit">Go</button>
+                        </form>
+                        <p>Sign up for our latest news &amp; articles. We won’t give you spam mails.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end d-block d-lg-flex justify-content-between align-items-center pt-4 mt-5">
+                <div class="columns text-lg-start text-center">
+                    <p>© 2020 Masterwork. All rights reserved | Designed by
+                        <a href="https://w3layouts.com/">W3Layouts</a>
+                    </p>
+                </div>
+                <div class="col-social text-lg-end text-center mt-lg-0 mt-3">
+                    <ul class="social">
+                        <li><a href="#facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li><a href="#linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                        <li><a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#google"><i class="fa-brands fa-google-plus-g"></i></a>
+                        </li>
+                        <li><a href="#github"><i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button class="back-to-top" onclick="topFunction()" id="movetop" title="Go to top">
+            <i class="fa-solid fa-angle-up"></i>
+        </button>
+    </footer>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- move top -->
+    <script>
+        $(function () {
+            $('.navbar-toggler').click(function () {
+                $('body').toggleClass('noscroll');
+            })
+        });
+    </script>
 
 
     <!-- Scripts -->
