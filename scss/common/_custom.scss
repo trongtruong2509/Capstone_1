@@ -1,0 +1,31 @@
+@import './../theme/variables';
+@import './../theme/mixins';
+
+.fs-7 {
+    font-size: $text-sm !important;
+}
+
+.fs-8 {
+    font-size: $text-xs !important;
+}
+
+.container {
+    width: 100%;
+    padding: 0 1rem;
+    margin-right: auto;
+    margin-left: auto; 
+
+    @include Responsive(SM) {
+		max-width: 100%;
+        padding: 0 1.75rem;
+	}
+
+	@include Responsive(MD) {
+        max-width: 100%;
+        padding: 0 1.5rem;
+	}
+
+    @include Responsive(XXL) {
+        max-width: $XL;
+	}
+}
