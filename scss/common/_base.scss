@@ -1,4 +1,5 @@
 @import "./../theme/variables";
+@import "./../theme/mixins";
 
 @import "./../../bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
@@ -6,42 +7,6 @@
 
 @import "./custom";
 
-
-.btn-outline-primary {
-    font-size: $text-sm !important;
-    color: $primary !important;
-    background-color: transparent !important;
-    font-weight: $text-bold !important;
-    transition: all 0.3s ease-out;
-    text-transform: uppercase;
-}
-
-.btn-outline-primary:hover,
-.btn-outline-primary:focus,
-.btn-outline-primary:active,
-.btn-outline-primary.active,
-.open>.dropdown-toggle.btn-outline-primary {
-    color: $white !important;
-    background-color: $primary !important;
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-.btn-primary {
-    background-color: $primary-color-light !important;
-    border-color: $primary-color-light !important;
-    color: $white !important;
-    font-size: 0.875rem !important;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open>.dropdown-toggle.btn-primary {
-    background-color: $primary-color-dark !important;
-    border-color: #cf2952 !important;
-}
 
 * {
     margin: 0;
@@ -75,6 +40,11 @@ select {
     font-family: 'Nunito', sans-serif;
 }
 
+button,
+input {
+    overflow: visible;
+}
+
 textarea {
     font-family: 'Nunito', sans-serif;
 }
@@ -91,6 +61,55 @@ iframe {
 ul {
     margin: 0;
     padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.btn-outline-primary {
+    color: $primary !important;
+    border-color: $primary !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.open>.dropdown-toggle.btn-outline-primary {
+    color: $white !important;
+    background-color: $primary !important;
+}
+
+.btn-primary {
+    color: $white !important;
+    background-color: $primary !important;
+    border-color: $primary !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background-color: $primary-color-dark !important;
+    border-color: #cf2952 !important;
+}
+
+.button-theme {
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: $text-bold;
+    font-size: $text-sm !important;
+    margin: 0px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+
+    @media (max-width: 767px) {
+        line-height: 44px;
+        padding: 0px 20px;
+    }
 }
 
 .title-section {
@@ -111,7 +130,19 @@ ul {
         font-size: 46px;
         line-height: 1;
         font-weight: $text-bold;
+
+        @media (max-width: 800px) {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        @media (max-width: 667px) {
+            font-size: 32px;
+            line-height: 42px;
+        }
+
     }
+
 
     p {
         max-width: 750px;
