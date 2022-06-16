@@ -92,39 +92,32 @@
     .footer-end {
         border-top: 1px solid #eaeaea;
 
-        .col-social {
-            .social {
-                li {
+        .social {
+            li {
+                display: inline-block;
+                margin-right: 5px;
+
+                a {
+                    color: $title-color;
+                    width: 36px;
+                    height: 36px;
+                    line-height: 36px;
                     display: inline-block;
-                    margin-right: 5px;
+                    border-radius: 50%;
+                    text-align: center;
 
-                    a {
-                        color: $title-color;
-                        width: 36px;
-                        height: 36px;
+                    i {
+                        font-size: 15px;
                         line-height: 36px;
-                        display: inline-block;
-                        border-radius: 50%;
-                        text-align: center;
+                    }
 
-                        i {
-                            font-size: 15px;
-                            line-height: 36px;
-                        }
-
-                        &:hover {
-                            color: $primary;
-                            transition: 0.3s ease;
-                        }
+                    &:hover {
+                        color: $primary;
+                        transition: 0.3s ease;
                     }
                 }
             }
-
-            @include Responsive(LG) {
-                text-align: center;
-            }
         }
-
     }
 
     .back-to-top {

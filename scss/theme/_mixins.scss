@@ -1,7 +1,7 @@
 
 
 // Button, input, table, text 
-@mixin Text($fs: $text-base, $fw: $text-regular, $c: $c1-700) {
+@mixin Text($fs, $fw, $c) {
     font-size: $fs;
     font-weight: $fw;
     color: $c;
