@@ -2,3 +2,55 @@
 @import "./../layout/_header";
 @import "./../layout/_footer";
 
+.banner {
+    margin-top: 90px;
+
+    .content {
+        position: relative;
+        background-image: linear-gradient(to right, $white, rgba(255, 255, 255, 0.92)), url("../../src/img/banner.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        padding-top: 5rem;
+        overflow: hidden;
+
+        .content-left {
+            h3 {
+                font-size: 50px;
+                line-height: 57.5px;
+                color: $title-color;
+                font-weight: $text-bold;
+
+                @media (max-width: 568px) {
+                    font-size: 40px;
+                    line-height: 45px;
+                }
+
+                @media (max-width: 375px) {
+                    font-size: 35px;
+                }
+            }
+
+            p {
+                color: $text-color;
+                font-size: $text-md;
+                line-height: 28px;
+                font-weight: $text-regular;
+                max-width: 450px;
+            }
+        }
+
+        .content-right {
+            img {
+                transform: rotate(180deg);
+
+                @media (max-width: 992px) {
+                    display: block;
+                }
+            }
+        }
+    }
+}
