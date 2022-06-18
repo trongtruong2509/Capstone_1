@@ -1,7 +1,7 @@
 @import "./../common/base";
 
 .footer {
-    background-color: $light-bg-color;
+    background-color: $bg-color-light;
 
     h3 {
         font-size: $text-md;
@@ -58,7 +58,7 @@
 
         .subscribe {
             input[type="email"] {
-                background: $light-bg-color;
+                background: $bg-color-light;
                 border: none;
                 padding: 12px 20px;
                 font-size: $text-base;
