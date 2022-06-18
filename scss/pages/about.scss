@@ -1,0 +1,51 @@
+@import "./../common/_base";
+@import "./../layout/_header";
+@import "./../layout/_footer";
+
+.about-us {
+    margin-top: 90px;
+
+    .title-section {
+        text-align: center;
+
+        h3 {
+            font-size: 2.875rem;
+            font-weight: $text-extraBold;
+        }
+    }
+
+    .about-content {
+        .content-left {
+            h1 {
+                font-size: 2.25rem;
+                font-weight: $text-semiBold;
+            }
+
+            p {
+                margin-bottom: 2.25rem;
+            }
+
+            li {
+                font-weight: $text-semiBold;
+
+                i {
+                    background: rgba(220, 79, 114, 0.1);
+                    font-size: 0.625rem !important;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
+    .feature {
+        h4 {
+            font-style: 1.625rem;
+            font-weight: $text-bold;
+            padding-bottom: 1rem;
+        }
+
+        p {
+            line-height: 24.5px;
+        }
+    }
+}
