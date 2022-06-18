@@ -37,7 +37,7 @@
         }
     }
 
-    .feature {
+    .detail {
         h4 {
             font-style: 1.625rem;
             font-weight: $text-bold;
@@ -46,6 +46,80 @@
 
         p {
             line-height: 24.5px;
+        }
+    }
+}
+
+.feature {
+    background-color: rgb(247, 249, 252);
+
+    .container {
+        .col-lg-3 {
+            padding: 0 1rem !important;
+        }
+
+        .item {
+            height: 250px;
+            width: 100%;
+            padding: 0 1.875rem;
+            border-radius: 0.375rem;
+            box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+
+            .icon {
+                display: inline-block;
+                font-size: 1.625rem;
+                width: 70px;
+                height: 70px;
+                line-height: 70px;
+                background-color: $primary;
+                color: $white;
+                border-radius: 100%;
+                position: relative;
+                top: 3.75rem;
+                transition: 0.3s all;
+            }
+
+            h3 {
+                font-size: 22px;
+                font-weight: $text-bold;
+                position: relative;
+                top: 4.625rem;
+                transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            }
+
+            .detail {
+                opacity: 0;
+                transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                transform: scale(0);
+                position: relative;
+                top: 0px;
+
+                a {
+                    color: $primary;
+                    font-size: 1rem;
+                    font-weight: $text-bold;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline !important;
+                    }
+                }
+            }
+
+            &:hover {
+                .icon {
+                    top: -40px;
+                }
+
+                h3 {
+                    top: 0px;
+                }
+
+                .detail {
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
         }
     }
 }
