@@ -1,7 +1,7 @@
 
 
 // Button, input, table, text 
-@mixin Text($fs: $text-base, $fw: $text-regular, $c: $c1-700) {
+@mixin Text($fs, $fw, $c) {
     font-size: $fs;
     font-weight: $fw;
     color: $c;
@@ -22,21 +22,21 @@
 // media queries
 @mixin Responsive($canvas) {
   @if $canvas == XS {
-   @media only screen and (min-width: $XS) { @content; } 
+   @media only screen and (min-width: $XS) { @content; } //480px
   }
   @else if $canvas == SM {
-   @media only screen and (min-width: $SM) { @content; } 
+   @media only screen and (min-width: $SM) { @content; } //576px
   }
   @else if $canvas == MD {
-   @media only screen and (min-width: $MD) { @content; } 
+   @media only screen and (min-width: $MD) { @content; } //768px
   }
   @else if $canvas == LG {
-    @media only screen and (min-width: $LG) { @content; } 
+    @media only screen and (min-width: $LG) { @content; } //992px
    }
   @else if $canvas == XL {
-   @media only screen and (min-width: $XL) { @content; } 
+   @media only screen and (min-width: $XL) { @content; } //1200px
   }
   @else if $canvas == XXL {
-    @media only screen and (min-width: $XXL) { @content; } 
+    @media only screen and (min-width: $XXL) { @content; } //1280px
   }
 }
