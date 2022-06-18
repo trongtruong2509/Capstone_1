@@ -1,10 +1,14 @@
-
-$primary: #FD4766;
-
-$primary-color-light: #dc4f72;
+$primary: #dc4f72;
+$primary-color-light: #FD4766;
 $primary-color-dark: #d62f58;
 
+$white: #fff;
+$black: #000;
 
+$text-color: #5a5a5a;
+$title-color: #2C3038;
+
+$light-bg-color: #F7F9FC;
 
 $text-xs: 0.75rem;
 $text-sm: 0.875rem;
@@ -24,5 +28,11 @@ $text-bold: 700;
 $text-extraBold: 800;
 $text-black: 900;
 
-
+// Breakpoint define:
+$XS:     480px;   
+$SM:     576px;  
+$MD:     768px;  
+$LG:     992px;   
+$XL:    1200px;   
+$XXL:   1280px;  
 

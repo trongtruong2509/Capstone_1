@@ -1,0 +1,42 @@
+
+
+// Button, input, table, text 
+@mixin Text($fs, $fw, $c) {
+    font-size: $fs;
+    font-weight: $fw;
+    color: $c;
+}
+
+@mixin Button($bg, $border, $radius, $height, $padding, $shadow) {
+    background: $bg;
+    border: $border;
+    border-radius: $radius;
+    height: $height;
+    padding: $padding;
+    box-shadow: $shadow;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+   
+// media queries
+@mixin Responsive($canvas) {
+  @if $canvas == XS {
+   @media only screen and (min-width: $XS) { @content; } //480px
+  }
+  @else if $canvas == SM {
+   @media only screen and (min-width: $SM) { @content; } //576px
+  }
+  @else if $canvas == MD {
+   @media only screen and (min-width: $MD) { @content; } //768px
+  }
+  @else if $canvas == LG {
+    @media only screen and (min-width: $LG) { @content; } //992px
+   }
+  @else if $canvas == XL {
+   @media only screen and (min-width: $XL) { @content; } //1200px
+  }
+  @else if $canvas == XXL {
+    @media only screen and (min-width: $XXL) { @content; } //1280px
+  }
+}

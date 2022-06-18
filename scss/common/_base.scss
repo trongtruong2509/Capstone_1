@@ -1,59 +1,167 @@
 @import "./../theme/variables";
+@import "./../theme/mixins";
 
-@import "./../../bootstrap/scss/bootstrap";
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
+@import "./custom";
 
-.btn-outline-primary {
-    font-size: $text-sm !important;
-    color: $primary !important;
-    background-color: transparent !important;
-    font-weight: $text-bold !important;
-    transition: all 0.3s ease-out;
-    text-transform: uppercase;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    scroll-behavior: smooth;
 }
 
-.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open>.dropdown-toggle.btn-outline-primary {
-    color: $white !important;
-    background-color: $primary !important; 
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-.btn-primary {
-    background-color: $primary-color-light !important;
-    border-color: $primary-color-light !important;
-    color: $white !important;
-    font-size: 0.875rem !important;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    background-color: $primary-color-dark !important; 
-    border-color: #cf2952 !important;
-}
-
-// html {
-
-// }
-
-body {
+body,
+html {
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
 }
 
-.title {
-    span {
-        // ,,,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+button,
+.btn,
+select {
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+textarea {
+    font-family: 'Nunito', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+iframe {
+    border: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-outline-primary {
+    color: $primary !important;
+    border-color: $primary !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active,
+.open>.dropdown-toggle.btn-outline-primary {
+    color: $white !important;
+    background-color: $primary !important;
+}
+
+.btn-primary {
+    color: $white !important;
+    background-color: $primary !important;
+    border-color: $primary !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background-color: $primary-color-dark !important;
+    border-color: #cf2952 !important;
+}
+
+.button-theme {
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: $text-bold;
+    font-size: $text-sm !important;
+    margin: 0px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+
+    @media (max-width: 767px) {
+        line-height: 44px;
+        padding: 0px 20px;
+    }
+}
+
+.title-section {
+    max-width: 750px;
+    margin: 0 auto;
+
+    .sub-title {
+        font-size: 1rem;
+        line-height: 20px;
+        font-weight: $text-bold;
+        color: $primary;
+        text-transform: uppercase;
+        margin-bottom: 5px;
     }
 
-    h1 {
-        // ,,,,
+    h3 {
+        color: $title-color;
+        font-size: 46px;
+        line-height: 1;
+        font-weight: $text-bold;
+
+        @media (max-width: 800px) {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        @media (max-width: 667px) {
+            font-size: 32px;
+            line-height: 42px;
+        }
+
     }
+
 
     p {
-        // ....
+        max-width: 750px;
+        color: $text-color;
+        font-size: $text-base;
+        line-height: 22.5px;
+        font-weight: $text-regular;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
     }
-
-    
 }
