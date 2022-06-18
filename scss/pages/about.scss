@@ -123,3 +123,103 @@
         }
     }
 }
+
+.solution {
+    button {
+        padding: 1rem 1.875rem !important;
+    }
+}
+
+.brands {
+    .owl-carousel {
+        .item {
+            width: 287px;
+
+            img {
+                filter: grayscale(1);
+                padding: 1rem 2rem;
+                transition: all 0.3s;
+
+                &:hover {
+                    filter: none;
+                }
+            }
+        }
+    }
+}
+
+.members {
+    background-color: #F7F9FC;
+
+    .item {
+        transition: 0.3s ease-in-out;
+        // box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+        // color: rgb(33, 37, 41);
+
+        .wrapper {
+            height: 250px;
+            width: 100%;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                min-height: 100%;
+                object-fit: cover;
+                border-top-left-radius: 0.3rem;
+                border-top-right-radius: 0.3rem;
+            }
+        }
+
+        .content {
+            border: 1px solid #eee;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
+
+            h3 {
+                display: block;
+                transition: all 0.3s ease-in-out;
+                
+                a {
+                    text-align: left;
+                    width: 100%;
+                    font-size: 22px;
+                    font-weight: $text-bold;
+                    color: $title-color;
+                }
+            } 
+
+            p {
+                color: rgb(90, 90, 90);
+            }
+
+            a {
+                display: inline-block;
+                width: 1.875rem;
+                height: 1.875rem;
+                line-height: 1.875rem;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 0.75rem;
+            }
+
+            .facebook-icon {
+                background-color: #3b5998;
+                color: $white;
+            }
+
+            .twitter-icon {
+                background-color: #1da1f2;
+                color: $white;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+            transform: translateY(-0.5rem);
+
+            h3 a {
+                color: $primary;
+            }
+        }
+    }
+}
