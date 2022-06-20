@@ -64,8 +64,8 @@
             <div class="title-section py-5">
                 <h3>About Us</h3>
             </div>
-            <div class="about-content row gap-4 mb-5">
-              <div class="content-left col">
+            <div class="about-content row mb-lg-5">
+              <div class="content-left col-lg-6 col-md-12">
                 <h1 class="mb-4">The Best Choice For Your Successful Business!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                 <ul>
@@ -87,21 +87,21 @@
                     </li>
                 </ul>
               </div>
-              <div class="content-right col">
-                <img class="img-fluid rounded-3" src="./../src/img/about-us.jpg" alt="About Us">
+              <div class="content-right col-lg-6 col-md-12">
+                <img class="img-fluid w-100 rounded-3" src="./../src/img/about-us.jpg" alt="About Us">
               </div>
             </div>
 
             <div class="detail row py-5">
-                <div class="col px-3">
+                <div class="col-lg-4 col-sm-6 px-3">
                     <h4>Our History 1795</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                 </div>
-                <div class="col px-3">
+                <div class="col-lg-4 col-sm-6 px-3">
                     <h4>The power of business</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
                 </div>
-                <div class="col px-3">
+                <div class="col-lg-4 col-sm-6 px-3 mt-sm-5">
                     <h4>120 Customer service</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
                 </div>
@@ -111,14 +111,14 @@
 
     <section class="feature">
         <div class="container py-5">
-            <div class="title-section text-center mb-5">
+            <div class="title-section text-center">
                 <span>FEATURES</span>
                 <h3>The Largest Business Expert !</h3>
                 <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
             </div>
             <div class="content py-3">
                 <div class="row text-center">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6 mt-5">
                         <div class="item bg-white">
                             <div class="icon">
                                 <i class="fa fa-usd"></i>
@@ -130,7 +130,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6 mt-5">
                         <div class="item bg-white">
                             <div class="icon">
                                 <i class="fa fa-user-circle"></i>
@@ -142,7 +142,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6 mt-5">
                         <div class="item bg-white">
                             <div class="icon">
                                 <i class="fa-regular fa-hand-peace"></i>
@@ -154,7 +154,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-sm-6 mt-5">
                         <div class="item bg-white">
                             <div class="icon">
                                 <i class="fa fa-laptop"></i>
@@ -181,11 +181,19 @@
     
             <div class="intro text-center position-relative">
                 <img src="/src/img/bg-video-img.jpg" class="img-fluid rounded-3" alt="Video Background Image">
-                <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute translate-middle">
+                <a href="#video-dialog" class="text-primary text-center position-absolute top-50 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#video-dialog">
                     <div class="icon">
                       <i class="fa fa-play"></i>
                     </div>
-                  </a>
+                </a>
+
+                <div class="modal" id="video-dialog">
+                    <div  class="modal-dialog modal-dialog-centered modal-dialog-scrollable" tabindex="-1">
+                        <div class="modal-content">
+                            <iframe src="https://www.youtube.com/embed/a5KYlHNKQB8" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="text-center mt-5">
@@ -247,7 +255,7 @@
             </div>
             <main>
                 <div class="row">
-                    <div class="col-lg-3 px-3 mt-4 pt-2">
+                    <div class="col-lg-3 col-sm-6 px-3 mt-4 pt-2">
                         <div class="item rounded-3 bg-white">
                             <div class="wrapper">
                                 <img src="/src/img/team1.jpg" alt="Team 1" class="img-fluid">
@@ -264,7 +272,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 px-3 mt-4 pt-2">
+                    <div class="col-lg-3 col-sm-6 px-3 mt-4 pt-2">
                         <div class="item rounded-3 bg-white">
                             <div class="wrapper">
                                 <img src="/src/img/team2.jpg" alt="Team 1" class="img-fluid">
@@ -281,7 +289,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 px-3 mt-4 pt-2">
+                    <div class="col-lg-3 col-sm-6 px-3 mt-4 pt-2">
                         <div class="item rounded-3 bg-white">
                             <div class="wrapper">
                                 <img src="/src/img/team3.jpg" alt="Team 1" class="img-fluid">
@@ -298,7 +306,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 px-3 mt-4 pt-2">
+                    <div class="col-lg-3 col-sm-6 px-3 mt-4 pt-2">
                         <div class="item rounded-3 bg-white">
                             <div class="wrapper">
                                 <img src="/src/img/team4.jpg" alt="Team 1" class="img-fluid">
@@ -315,7 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 px-3 mt-4 pt-2">
+                    <div class="col-lg-3 col-sm-6 px-3 mt-4 pt-2">
                         <div class="item rounded-3 bg-white">
                             <div class="wrapper">
                                 <img src="/src/img/team5.jpg" alt="Team 5" class="img-fluid">
@@ -332,7 +340,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 px-3 mt-4 pt-2">
+                    <div class="col-lg-3 col-sm-6 px-3 mt-4 pt-2">
                         <div class="item rounded-3 bg-white">
                             <div class="wrapper">
                                 <img src="/src/img/team6.jpg" alt="Team 6" class="img-fluid">
@@ -349,7 +357,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 px-3 mt-4 pt-2">
+                    <div class="col-lg-3 col-sm-6 px-3 mt-4 pt-2">
                         <div class="item rounded-3 bg-white">
                             <div class="wrapper">
                                 <img src="/src/img/team7.jpg" alt="Team 7" class="img-fluid">
@@ -366,7 +374,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 px-3 mt-4 pt-2">
+                    <div class="col-lg-3 col-sm-6 px-3 mt-4 pt-2">
                         <div class="item rounded-3 bg-white">
                             <div class="wrapper">
                                 <img src="/src/img/team8.jpg" alt="Team 8" class="img-fluid">
@@ -496,16 +504,23 @@
             dots:false,
             responsive:{
                 0:{
-                    items:1
+                    items:2
                 },
-                600:{
-                    items:4
+                576:{
+                    items:2
                 },
-                1000:{
+                992:{
                     items:4
                 }
             }
         });
+
+        var myModal = document.getElementById('video-dialog');
+        var myInput = document.getElementById('myInput');
+
+        myModal.addEventListener('shown.bs.modal', function () {
+            myInput.focus();
+        })
 
     </script>
     <script src="./../js/index.js"></script>
