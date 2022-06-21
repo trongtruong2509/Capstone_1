@@ -5,6 +5,10 @@
 .contact-us {
     padding-top: 90px;
 
+    h3 {
+        font-weight: $text-extraBold;
+    }
+
     .content-right {
         background-color: $white;
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
