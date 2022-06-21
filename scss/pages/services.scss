@@ -74,6 +74,12 @@
             font-weight: $text-extraBold;
             font-family: var(--font-accent);
             margin-bottom: 0.25rem;
+            cursor: pointer;
+            transition: 0.3s all;
+
+            &:hover {
+                color: $primary;
+            }
         }
 
         p {
@@ -89,4 +95,35 @@
         }
     }
 
+}
+
+.features {
+    .item {
+        padding: 2rem;
+
+        h3 {
+            font-size: 2.375rem;
+            font-weight: $text-bold;
+            margin-bottom: 0.625rem;
+        }
+    }
+    
+    li {
+        font-weight: $text-semiBold;
+
+        i {
+            font-size: 10px;
+            background-color: rgba(220, 79, 114, 0.1);
+            opacity: 0.5;
+            font-weight: 700;
+        }
+    }
+
+    img {
+        transition: 0.3s all;
+
+        &:hover {
+            transform: translateY(-0.5rem);
+        }
+    }
 }
