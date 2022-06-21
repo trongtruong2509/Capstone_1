@@ -1,0 +1,33 @@
+@import "./../common/_base";
+@import "./../layout/_header";
+@import "./../layout/_footer";
+
+
+.date {
+    font-size: 1.125rem;
+    font-weight: $text-bold;
+    color: $white;
+    background-color: $primary;
+    padding: 15px;
+}
+
+.posts-slider {
+    padding-top: 90px;
+
+    background-color: #F7F9FC;
+
+    .item {
+        img {
+            border-bottom-left-radius: 0.375rem !important;
+            border-top-left-radius: 0.375rem !important;
+        }
+    }
+
+    .content-right {
+        border-bottom-right-radius: 0.375rem !important;
+        border-top-right-radius: 0.375rem !important;
+
+        padding: 30px !important;
+        margin-right: 1rem;
+    }
+}
