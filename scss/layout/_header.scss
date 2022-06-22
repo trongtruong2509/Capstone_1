@@ -7,9 +7,11 @@
 
             .navbar-brand {
                 font-size: 1.625rem !important;
+                font-weight: 900 !important;
             }
     
             .nav-link {
+                display: inline-block !important;
                 transition: all 0.3s;
 
                 &::after {
