@@ -92,6 +92,14 @@
     .footer-end {
         border-top: 1px solid #eaeaea;
 
+        p {
+            margin: 0;
+
+            a {
+                color: $title-color;
+            }
+        }
+
         .social {
             li {
                 display: inline-block;

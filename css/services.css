@@ -772,3 +772,100 @@ img {
   color: #fff;
   font-size: 22px;
 }
+
+.services {
+  padding-top: 90px;
+}
+.services h3 {
+  font-weight: 800;
+}
+.services .content h1 {
+  font-size: 2.625rem;
+  font-weight: 600;
+  padding-bottom: 1.875rem;
+}
+.services .content span {
+  font-size: 1.5rem;
+  color: #909090;
+  line-height: 1.875rem;
+}
+.services .content button {
+  padding: 0 1.875rem;
+}
+.services .content-right a {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  background-color: #F7F9FC;
+  text-align: center;
+  box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+}
+.services .content-right h4 {
+  font-family: var(--font-accent);
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.services .content-right h4:hover {
+  color: #dc4f72;
+}
+
+.products {
+  background-color: #F7F9FC;
+}
+.products .content .item {
+  font-size: 1.25rem;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+.products .content h3 {
+  font-size: 1.125rem;
+  font-weight: 800;
+  font-family: var(--font-accent);
+  margin-bottom: 0.25rem;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.products .content h3:hover {
+  color: #dc4f72;
+}
+.products .content p {
+  margin: 0;
+}
+.products .content .col-center {
+  transition: all 0.3s;
+}
+.products .content .col-center:hover {
+  transform: translateY(-0.5rem);
+}
+
+.features .item {
+  padding: 2rem;
+}
+.features .item h3 {
+  font-size: 2.375rem;
+  font-weight: 700;
+  margin-bottom: 0.625rem;
+}
+.features li {
+  font-weight: 600;
+}
+.features li i {
+  font-size: 10px;
+  background-color: rgba(220, 79, 114, 0.1);
+  opacity: 0.5;
+  font-weight: 700;
+}
+.features img {
+  transition: 0.3s all;
+}
+.features img:hover {
+  transform: translateY(-0.5rem);
+}
