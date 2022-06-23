@@ -1,6 +1,6 @@
-@import "./../common/_base";
-@import "./../layout/_header";
-@import "./../layout/_footer";
+@import "../common/base";
+@import "../layout/header";
+@import "../layout/footer";
 
 .banner {
     margin-top: 90px;
@@ -51,6 +51,38 @@
                     display: block;
                 }
             }
+        }
+    }
+}
+
+.tools {
+    .tools-item {
+        border: 1px solid $bg-color-light;
+        border-radius: 6px;
+        background-color: $bg-color-light;
+        padding: 3rem 2rem;
+        transition: 0.3s ease-in;
+
+        h3 {
+            color: $title-color !important;
+            font-size: 26px;
+            font-weight: $text-bold;
+            line-height: 35px;
+            margin: 1rem 0;
+        }
+
+        p {
+            color: $text-color !important;
+            font-size: $text-base;
+            line-height: 24.5px;
+            margin: 15px 0 0;
+        }
+
+        &:hover {
+            border: 1px solid #eee;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+            background-color: $white;
+            transform: translateY(-4%);
         }
     }
 }
