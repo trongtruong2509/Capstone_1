@@ -167,3 +167,30 @@
         }
     }
 }
+
+.slogan {
+    min-height: 480px;
+    background-image: linear-gradient(to right, rgba($black, .7), rgba($black, .33)), url(../../src/img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 2rem 0;
+
+    .content {
+        max-width: 550px;
+
+        h3 {
+            color: $white;
+            font-size: 30px;
+            font-weight: $text-bold;
+            line-height: 36px;
+        }
+
+        p {
+            font-size: $text-base;
+            color: #eee;
+            line-height: 24.5px;
+        }
+    }
+}

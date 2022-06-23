@@ -914,3 +914,27 @@ img {
     font-size: 17px;
   }
 }
+
+.slogan {
+  min-height: 480px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url(../../src/img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 2rem 0;
+}
+.slogan .content {
+  max-width: 550px;
+}
+.slogan .content h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.slogan .content p {
+  font-size: 1rem;
+  color: #eee;
+  line-height: 24.5px;
+}
