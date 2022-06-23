@@ -850,3 +850,15 @@ img {
   background-color: #fff;
   transform: translateY(-4%);
 }
+
+.about {
+  background-color: #F7F9FC;
+}
+.about .about-left .title-section h3 {
+  font-size: 35px;
+  line-height: 40px;
+}
+.about .about-right img {
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
