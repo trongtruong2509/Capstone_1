@@ -194,3 +194,126 @@
         }
     }
 }
+
+.blog {
+    .blog-item {
+        height: 100%;
+        background: $white;
+        border: 1px solid #eee;
+        border-radius: 6px;
+        transition: 0.3s ease-in;
+
+        a {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            border-top-right-radius: 6px;
+
+            img {
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+                filter: grayscale(1);
+                transition: 0.3s all;
+            }
+
+            p {
+                color: $white;
+                font-size: 18px;
+                font-weight: $text-bold;
+                line-height: 24.5px;
+                background-color: $primary;
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0;
+                padding: 15px;
+            }
+        }
+
+        .content {
+            background: $white;
+            padding: 30px 20px;
+            border-radius: 6px;
+
+            span {
+                display: inline-block;
+                font-size: 13px;
+                font-weight: $text-semiBold;
+                border-radius: 25px;
+                padding: 5px 16px;
+                margin-bottom: 15px;
+
+                &.tag-red {
+                    background-color: rgba(238, 97, 120, .2);
+                    color: $primary;
+                }
+
+                &.tag-green {
+                    background-color: rgba(0, 128, 0, .2);
+                    color: #008000;
+                }
+
+                &.tag-blue {
+                    background-color: rgba(0, 0, 255, 0.2);
+                    color: #0000ff;
+                }
+            }
+
+            h4 {
+                a {
+                    color: $title-color;
+                    font-size: 22px;
+                    font-weight: $text-semiBold;
+                    line-height: 27px;
+                }
+            }
+
+            p {
+                color: $text-color;
+                font-size: $text-base;
+                line-height: 24.5px;
+                border-bottom: 1px solid #eee;
+                margin: 15px 0 20px 0;
+                padding-bottom: 20px;
+            }
+            
+            a {
+                color: $primary;
+                font-size: $text-base;
+                font-weight: $text-semiBold;
+                border-radius: 0;
+                padding: 0;
+
+                i {
+                    font-size: 70%;
+                    padding-left: 0;
+                    transition: 0.3s all;
+                }
+            }
+        }
+
+        &:hover {
+            box-shadow: 0 0.5rem 1rem rgba($black, 0.09);
+            transform: translateY(-2%);
+
+            a {
+                img {
+                    filter: grayscale(0);
+                }
+            }
+
+            .content {
+                h4 {
+                    a {
+                        color: $primary;
+                    }
+                }
+                a {
+                    i {
+                        transform: translateX(30%);
+                    }
+                }
+            }
+        }
+    }
+}

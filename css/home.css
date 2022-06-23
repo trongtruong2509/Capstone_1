@@ -938,3 +938,99 @@ img {
   color: #eee;
   line-height: 24.5px;
 }
+
+.blog .blog-item {
+  height: 100%;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  transition: 0.3s ease-in;
+}
+.blog .blog-item a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+}
+.blog .blog-item a img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  filter: grayscale(1);
+  transition: 0.3s all;
+}
+.blog .blog-item a p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.5px;
+  background-color: #dc4f72;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 15px;
+}
+.blog .blog-item .content {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 6px;
+}
+.blog .blog-item .content span {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-bottom: 15px;
+}
+.blog .blog-item .content span.tag-red {
+  background-color: rgba(238, 97, 120, 0.2);
+  color: #dc4f72;
+}
+.blog .blog-item .content span.tag-green {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.blog .blog-item .content span.tag-blue {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
+}
+.blog .blog-item .content h4 a {
+  color: #2C3038;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.blog .blog-item .content p {
+  color: #5a5a5a;
+  font-size: 1rem;
+  line-height: 24.5px;
+  border-bottom: 1px solid #eee;
+  margin: 15px 0 20px 0;
+  padding-bottom: 20px;
+}
+.blog .blog-item .content a {
+  color: #dc4f72;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0;
+  padding: 0;
+}
+.blog .blog-item .content a i {
+  font-size: 70%;
+  padding-left: 0;
+  transition: 0.3s all;
+}
+.blog .blog-item:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+  transform: translateY(-2%);
+}
+.blog .blog-item:hover a img {
+  filter: grayscale(0);
+}
+.blog .blog-item:hover .content h4 a {
+  color: #dc4f72;
+}
+.blog .blog-item:hover .content a i {
+  transform: translateX(30%);
+}
