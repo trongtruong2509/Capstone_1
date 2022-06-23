@@ -276,7 +276,7 @@
                 margin: 15px 0 20px 0;
                 padding-bottom: 20px;
             }
-            
+
             a {
                 color: $primary;
                 font-size: $text-base;
@@ -308,11 +308,74 @@
                         color: $primary;
                     }
                 }
+
                 a {
                     i {
                         transform: translateX(30%);
                     }
                 }
+            }
+        }
+    }
+}
+
+.faq {
+    background-color: $bg-color-light;
+
+    img {
+        border-radius: 6px;
+        box-shadow: 0 0.5rem 1rem rgba($black, .15);
+        transition: 0.5s all;
+
+        &:hover {
+            transform: translateY(-4%);
+        }
+    }
+
+    .content {
+        max-width: 750px;
+
+        .faq-item {
+            background-color: $white;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            margin: 0 0 15px 0;
+
+            .accordion-button {
+                color: $title-color;
+                font-size: $text-md;
+                font-weight: normal;
+                line-height: 1;
+                padding: 25px 20px 25px 20px !important;
+                background-color: $white;
+                box-shadow: none;
+                border-radius: 6px;
+                transition: 0.5s all;
+
+                &::after {
+                    width: 0.9rem;
+                    height: 0.9rem;
+                    background-image: url('../../src/img/angle-down.png');
+                    background-size: 0.9rem;
+                }
+
+                &:not(.collapsed) {
+                    padding-bottom: 14px !important;
+
+                    &::after {
+                        transform: rotateX(-180deg);
+                    }
+                }
+            }
+
+            .accordion-body {
+                padding-top: 0 !important;
+                padding-bottom: 25px;
+                color: $text-color;
+                font-size: $text-base;
+                line-height: 24.5px;
+                overflow: hidden;
+                max-height: 800px;
             }
         }
     }

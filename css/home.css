@@ -1034,3 +1034,56 @@ img {
 .blog .blog-item:hover .content a i {
   transform: translateX(30%);
 }
+
+.faq {
+  background-color: #F7F9FC;
+}
+.faq img {
+  border-radius: 6px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: 0.5s all;
+}
+.faq img:hover {
+  transform: translateY(-4%);
+}
+.faq .content {
+  max-width: 750px;
+}
+.faq .content .faq-item {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  margin: 0 0 15px 0;
+}
+.faq .content .faq-item .accordion-button {
+  color: #2C3038;
+  font-size: 1.25rem;
+  font-weight: normal;
+  line-height: 1;
+  padding: 25px 20px 25px 20px !important;
+  background-color: #fff;
+  box-shadow: none;
+  border-radius: 6px;
+  transition: 0.5s all;
+}
+.faq .content .faq-item .accordion-button::after {
+  width: 0.9rem;
+  height: 0.9rem;
+  background-image: url("../../src/img/angle-down.png");
+  background-size: 0.9rem;
+}
+.faq .content .faq-item .accordion-button:not(.collapsed) {
+  padding-bottom: 14px !important;
+}
+.faq .content .faq-item .accordion-button:not(.collapsed)::after {
+  transform: rotateX(-180deg);
+}
+.faq .content .faq-item .accordion-body {
+  padding-top: 0 !important;
+  padding-bottom: 25px;
+  color: #5a5a5a;
+  font-size: 1rem;
+  line-height: 24.5px;
+  overflow: hidden;
+  max-height: 800px;
+}
