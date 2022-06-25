@@ -498,3 +498,98 @@
     }
 
 }
+
+.testimonials {
+    background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url(../../src/img/b2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .testimonials-item {
+        max-width: 95%;
+        margin: 0 auto;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 50px;
+        background-color: $white;
+        border-radius: 6px;
+
+        .img-circle {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 3px solid $primary;
+
+            img {
+                width: 100%;
+                min-height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        .text {
+            i {
+                color: $title-color;
+                font-size: 30px;
+                opacity: 0.2;
+                position: absolute;
+                top: 0;
+                left: -40px;
+            }
+
+            p {
+                color: $title-color;
+                font-size: 18px;
+                line-height: 26px;
+            }
+
+            .name {
+                h4 {
+                    color: $primary;
+                    font-size: 18px;
+                    font-weight: $text-regular;
+                }
+
+                p {
+                    color: $text-color;
+                    font-size: 13px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+
+    .owl-theme {
+        .owl-dots {
+            margin-top: 30px !important;
+
+            .owl-dot {
+                background-color: transparent !important;
+
+                span {
+                    width: 40px;
+                    height: 5px;
+                    margin: 5px 5px;
+                    background-color: $white;
+                    display: block;
+                    border: none;
+                    transition: opacity .2s ease;
+                    border-radius: 0;
+                    position: relative;
+                }
+
+                &.active,
+                &:hover {
+                    span {
+                        background-color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
