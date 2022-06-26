@@ -845,99 +845,117 @@ img {
   font-size: 22px;
 }
 
-.services {
-  padding-top: 90px;
+.blog-main {
+  max-width: 750px;
+  margin: auto;
 }
-.services h3 {
-  font-weight: 800;
-}
-.services .content h1 {
-  font-size: 2.625rem;
-  font-weight: 600;
-  padding-bottom: 1.875rem;
-}
-.services .content span {
-  font-size: 1.5rem;
-  color: #909090;
-  line-height: 1.875rem;
-}
-.services .content button {
-  padding: 0 1.875rem;
-}
-.services .content-right a {
-  display: block;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  border-radius: 50%;
-  background-color: #F7F9FC;
-  text-align: center;
-  box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
-}
-.services .content-right h4 {
-  font-family: var(--font-accent);
-  font-size: 1.25rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-.services .content-right h4:hover {
-  color: #dc4f72;
-}
-
-.products {
-  background-color: #F7F9FC;
-}
-.products .content .item {
-  font-size: 1.25rem;
-  font-weight: 700;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  background-color: #fff;
-  border-radius: 50%;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
-}
-.products .content h3 {
-  font-size: 1.125rem;
-  font-weight: 800;
-  font-family: var(--font-accent);
-  margin-bottom: 0.25rem;
-  cursor: pointer;
-  transition: 0.3s all;
-}
-.products .content h3:hover {
-  color: #dc4f72;
-}
-.products .content p {
+.blog-main p {
+  padding: 0;
   margin: 0;
 }
-.products .content .col-center {
-  transition: all 0.3s;
+.blog-main img {
+  border-radius: 6px;
+  transition: 0.5s all;
 }
-.products .content .col-center:hover {
-  transform: translateY(-0.5rem);
+.blog-main img:hover {
+  transform: translateY(-2%);
 }
-
-.features .item {
-  padding: 2rem;
-}
-.features .item h3 {
-  font-size: 2.375rem;
+.blog-main .blog-top .blog-title h2 {
+  color: #2C3038;
+  font-size: 45px;
   font-weight: 700;
-  margin-bottom: 0.625rem;
+  line-height: 50px;
+  margin: 15px 0;
 }
-.features li {
-  font-weight: 600;
+.blog-main .blog-top .blog-title ul {
+  margin: 0 0 15px;
+  padding-bottom: 10px;
 }
-.features li i {
+.blog-main .blog-top .blog-title ul li {
+  margin-right: 10px;
+  display: inline-block;
+}
+.blog-main .blog-top .blog-title ul li p {
+  color: #5a5a5a;
+  font-size: 15px;
+  line-height: 24.5px;
+}
+.blog-main .blog-top .blog-title ul li p i {
+  color: #2C3038;
+}
+.blog-main .blog-top .blog-content p {
+  padding: 10px 0 0;
+  color: #5a5a5a;
+  font-size: 1rem;
+  line-height: 24.5px;
+}
+.blog-main .blockquote {
+  border-left: 3px solid #5a5a5a;
+  padding: 25px 25px 25px 45px;
+  background-color: #F7F9FC;
+}
+.blog-main .blockquote q {
+  color: #2C3038;
+  font-size: 1.5rem;
+  line-height: 36px;
+}
+.blog-main .blog-bottom h3 {
+  color: #2C3038;
+  font-size: 35px;
+  line-height: 40px;
+  margin: 25px 0;
+  font-family: "Segoe UI";
+}
+.blog-main .blog-bottom h5 {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.blog-main .blog-bottom p {
+  color: #5a5a5a;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 24.5px;
+  margin-top: 20px;
+}
+.blog-main .blog-bottom .blog-navigation {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.blog-main .blog-bottom .blog-navigation span {
+  color: #5a5a5a;
+  font-size: 1rem;
+  margin-bottom: 9px;
+  vertical-align: middle;
+}
+.blog-main .blog-bottom .blog-navigation span i {
   font-size: 10px;
-  background-color: rgba(220, 79, 114, 0.1);
-  opacity: 0.5;
-  font-weight: 700;
 }
-.features img {
+.blog-main .blog-bottom .blog-navigation .post-view {
+  gap: 4%;
+}
+.blog-main .blog-bottom .blog-navigation .post-view.left {
+  grid-template-columns: 23% 72%;
+}
+.blog-main .blog-bottom .blog-navigation .post-view.right {
+  grid-template-columns: 72% 23%;
+}
+.blog-main .blog-bottom .blog-navigation .post-view img {
+  border-radius: 6px;
+}
+.blog-main .blog-bottom .blog-navigation .post-view img:hover {
+  transform: translateY(0);
+}
+.blog-main .blog-bottom .blog-navigation .post-view p {
+  color: #2C3038;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 0;
   transition: 0.3s all;
 }
-.features img:hover {
-  transform: translateY(-0.5rem);
+.blog-main .blog-bottom .blog-navigation:hover .post-view p {
+  color: #dc4f72;
 }

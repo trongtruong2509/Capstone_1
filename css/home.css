@@ -217,6 +217,27 @@ img {
   color: #dc4f72 !important;
 }
 
+.tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-bottom: 15px;
+}
+.tag.tag-red {
+  background-color: rgba(238, 97, 120, 0.2);
+  color: #dc4f72;
+}
+.tag.tag-green {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.tag.tag-blue {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
+}
+
 .fs-7 {
   font-size: 0.875rem !important;
 }
@@ -416,6 +437,27 @@ img {
 
 .text-primary {
   color: #dc4f72 !important;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-bottom: 15px;
+}
+.tag.tag-red {
+  background-color: rgba(238, 97, 120, 0.2);
+  color: #dc4f72;
+}
+.tag.tag-green {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.tag.tag-blue {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
 }
 
 .page-header .navbar .container {
@@ -646,6 +688,27 @@ img {
 
 .text-primary {
   color: #dc4f72 !important;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-bottom: 15px;
+}
+.tag.tag-red {
+  background-color: rgba(238, 97, 120, 0.2);
+  color: #dc4f72;
+}
+.tag.tag-green {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.tag.tag-blue {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
 }
 
 .footer {
@@ -987,26 +1050,6 @@ img {
   background: #fff;
   padding: 30px 20px;
   border-radius: 6px;
-}
-.blog .blog-item .content span {
-  display: inline-block;
-  font-size: 13px;
-  font-weight: 600;
-  border-radius: 25px;
-  padding: 5px 16px;
-  margin-bottom: 15px;
-}
-.blog .blog-item .content span.tag-red {
-  background-color: rgba(238, 97, 120, 0.2);
-  color: #dc4f72;
-}
-.blog .blog-item .content span.tag-green {
-  background-color: rgba(0, 128, 0, 0.2);
-  color: #008000;
-}
-.blog .blog-item .content span.tag-blue {
-  background-color: rgba(0, 0, 255, 0.2);
-  color: #0000ff;
 }
 .blog .blog-item .content h4 a {
   color: #2C3038;
