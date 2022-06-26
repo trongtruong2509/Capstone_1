@@ -117,6 +117,21 @@ img {
   height: auto;
 }
 
+.img-circle {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #dc4f72;
+}
+.img-circle img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .btn-outline-primary {
   color: #dc4f72 !important;
   border-color: #dc4f72 !important;
@@ -337,6 +352,21 @@ img {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #dc4f72;
+}
+.img-circle img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .btn-outline-primary {
@@ -588,6 +618,21 @@ img {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #dc4f72;
+}
+.img-circle img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .btn-outline-primary {
@@ -1251,20 +1296,6 @@ img {
   gap: 50px;
   background-color: #fff;
   border-radius: 6px;
-}
-.testimonials .testimonials-item .img-circle {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  overflow: hidden;
-  border-radius: 50%;
-  border: 3px solid #dc4f72;
-}
-.testimonials .testimonials-item .img-circle img {
-  width: 100%;
-  min-height: 100%;
-  object-fit: cover;
-  object-position: center;
 }
 .testimonials .testimonials-item .text i {
   color: #2C3038;
