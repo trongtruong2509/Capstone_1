@@ -1,6 +1,7 @@
-@import "../common/base";
-@import "../layout/header";
-@import "../layout/footer";
+@import "./../common/_base";
+@import "./../layout/_header";
+@import "./../layout/_breadcrumb";
+@import "./../layout/_footer";
 
 .banner {
     margin-top: 90px;
