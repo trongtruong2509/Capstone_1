@@ -46,7 +46,7 @@
 
         &:hover {
             opacity: 0.8;
-            color: $primary;
+            color: $primary !important;
         }
     }
 
@@ -91,6 +91,14 @@
 
     .footer-end {
         border-top: 1px solid #eaeaea;
+
+        p {
+            margin: 0;
+
+            a {
+                color: $title-color;
+            }
+        }
 
         .social {
             li {

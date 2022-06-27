@@ -1,0 +1,315 @@
+@import "../common/base";
+@import "../layout/header";
+@import "../layout/footer";
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border-radius: 6px;
+    transition: 0.5s all;
+
+    &:hover {
+        transform: translateY(-2%);
+    }
+}
+
+.wraper {
+    max-width: 800px;
+    margin: auto;
+}
+
+.another-blog-title {
+    color: $title-color;
+    font-size: 35px;
+    font-weight: $text-semiBold;
+}
+
+.blog-top {
+    .blog-title {
+        h2 {
+            color: $title-color;
+            font-size: 45px;
+            font-weight: $text-bold;
+            line-height: 50px;
+            margin: 15px 0;
+        }
+
+        ul {
+            margin: 0 0 15px;
+            padding-bottom: 10px;
+
+            li {
+                margin-right: 10px;
+                display: inline-block;
+
+                p {
+                    color: $text-color;
+                    font-size: 15px;
+                    line-height: 24.5px;
+
+                    i {
+                        color: $title-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-content {
+        p {
+            padding: 10px 0 0;
+            color: $text-color;
+            font-size: $text-base;
+            line-height: 24.5px;
+        }
+    }
+}
+
+.blockquote {
+    border-left: 3px solid $text-color;
+    padding: 25px 25px 25px 45px;
+    background-color: $bg-color-light;
+
+    q {
+        color: $title-color;
+        font-size: $text-lg;
+        line-height: 36px;
+    }
+}
+
+.blog-bottom {
+    h3 {
+        color: $title-color;
+        font-size: 35px;
+        line-height: 40px;
+        margin: 25px 0;
+        font-family: "Segoe UI";
+    }
+
+    h5 {
+        color: $text-color;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        color: $text-color;
+        font-size: $text-base;
+        font-weight: normal;
+        line-height: 24.5px;
+        margin-top: 20px;
+    }
+
+    .blog-navigation {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+
+        span {
+            color: $text-color;
+            font-size: $text-base;
+            margin-bottom: 9px;
+            vertical-align: middle;
+
+            i {
+                font-size: 10px;
+            }
+        }
+
+        .post-view {
+            gap: 4%;
+
+            &.left {
+                grid-template-columns: 23% 72%;
+
+                @media (max-width: 767px) {
+                    grid-template-columns: 100%;
+                    gap: 0%;
+                }
+            }
+
+            &.right {
+                grid-template-columns: 72% 23%;
+
+                @media (max-width: 767px) {
+                    grid-template-columns: 100%;
+                    gap: 0%;
+                }
+            }
+
+            img {
+                border-radius: 6px;
+
+                &:hover {
+                    transform: translateY(0);
+                }
+            }
+
+            p {
+                color: $title-color;
+                font-size: 18px;
+                font-weight: $text-semiBold;
+                line-height: 25px;
+                margin: 0;
+                transition: 0.3s all;
+            }
+        }
+
+        &:hover {
+            .post-view {
+                p {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
+
+.comments {
+    .media {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 20px;
+        align-items: flex-start;
+
+        .img-circle {
+            width: 80px;
+            height: 80px;
+            background-color: #f3f6f9;
+            border: none;
+        }
+
+        .media-body {
+            flex: 1;
+
+            h5 {
+                color: $title-color;
+                font-size: 20px;
+                font-weight: $text-semiBold;
+                line-height: 25px;
+            }
+
+            span {
+                color: #ababab;
+                font-size: 15px;
+                line-height: 20px;
+                margin-top: 5px;
+                display: inline-block;
+            }
+
+            p {
+                color: $text-color;
+                font-size: $text-base;
+                line-height: 22.4px;
+            }
+
+            a {
+                color: $primary;
+                font-size: 13px;
+            }
+
+            .img-circle-sm {
+                width: 65px;
+                height: 65px;
+            }
+        }
+    }
+}
+
+.post {
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    .post-item {
+        border-radius: 6px;
+        transition: 0.5s all;
+
+        img {
+            border-radius: 6px 6px 0 0;
+
+            &:hover {
+                transform: translateY(0);
+            }
+        }
+
+        .box {
+            border: 1px solid #ddd;
+            border-radius: 0 0 6px 6px;
+            border-top: none;
+            padding: 1.25rem;
+            display: grid;
+            grid-auto-flow: column;
+            gap: 10px;
+
+            .text {
+                h5 {
+                    color: $title-color;
+                    font-size: 18px;
+                    font-weight: $text-bold;
+                    display: inline-block;
+                    margin-bottom: 0.75rem;
+                }
+
+                p {
+                    color: $text-color;
+                    font-size: $text-base;
+                    line-height: 20px;
+                }
+            }
+
+            .caption {
+                color: $primary;
+                font-size: 15px;
+                font-weight: $text-medium;
+                line-height: 20px;
+                display: inline;
+                padding-right: 5px;
+            }
+        }
+
+        &:hover {
+            transform: translateY(-3%);
+            box-shadow: 0 0.5rem 1rem rgba($black, 0.09);
+        }
+    }
+}
+
+.reply-form {
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    form {
+
+        input,
+        textarea {
+            color: $black;
+            font-size: $text-base;
+            font-weight: $text-semiBold;
+            line-height: 26px;
+            width: 100%;
+            outline: none;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            background-color: $bg-color-light;
+
+            &:focus {
+                border: 1px solid $primary;
+                background-color: $white;
+                box-shadow: none;
+            }
+        }
+
+        textarea {
+            height: 150px;
+            padding: 15px 20px;
+        }
+    }
+}
