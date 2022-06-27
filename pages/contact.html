@@ -11,7 +11,7 @@
     <header class="page-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
             <div class="container my-2">
-                <a class="navbar-brand fw-black text-primary" href="#">
+                <a class="navbar-brand text-primary" href="#">
                     <i class="fa-regular fa-handshake"></i>
                     Masterwork
                 </a>
@@ -21,40 +21,51 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars text-white"></i>
                 </button>
-              
-          <div class="collapse navbar-collapse justify-content-end gap-5 text-center align-items-center" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item me-lg-3">
-                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item me-lg-3">
-                <a class="nav-link active" href="./about.html">About</a>
-              </li>
-              <li class="nav-item me-lg-3">
-                <a class="nav-link active" href="./services.html">Services</a>
-              </li>
-              <li class="nav-item dropdown me-lg-3">
-                <a class="nav-link active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pages
-                  <i class="fa-solid fa-angle-down fs-8"></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./posts.html">Blog posts</a></li>
-                  <li><a class="dropdown-item" href="./singlePage.html">Blog single</a></li>
-                  <li><a class="dropdown-item" href="#">Landing page</a></li>
-                </ul>
-              </li>
-              <li class="nav-item me-lg-3">
-                <a class="nav-link active">Contact</a>
-              </li>
-            </ul> 
-            <form class="text-center pb-3 pb-md-4 pt-md-2 pt-lg-0 pb-lg-0">
-              <button class="btn btn-outline-primary " type="submit">Schedule demo</button>
-            </form>
-          </div>
-        </div>
-      </nav>
+
+                <div class="collapse navbar-collapse justify-content-end gap-5 text-center align-items-center"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item me-lg-3">
+                            <a class="nav-link active text-primary" aria-current="page" href="./home.html">Home</a>
+                        </li>
+                        <li class="nav-item me-lg-3">
+                            <a class="nav-link active" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item me-lg-3">
+                            <a class="nav-link active" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item dropdown me-lg-3">
+                            <a class="nav-link active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                                <i class="fa-solid fa-angle-down fs-8"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./posts.html">Blog posts</a></li>
+                                <li><a class="dropdown-item" href="./single-page.html">Blog single</a></li>
+                                <li><a class="dropdown-item" href="#">Landing page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item me-lg-3">
+                            <a class="nav-link active" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="text-center pb-3 pb-md-4 pt-md-2 pt-lg-0 pb-lg-0">
+                        <button class="btn btn-outline-primary" type="submit">Schedule demo</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     </header>
+
+    <nav class="breadcrumb-nav" style="--bs-breadcrumb-divider: '»';" aria-label="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+              <li class="breadcrumb-item" aria-current="page">Contact</li>
+            </ol>
+        </div>
+    </nav>
 
     <section class="contact-us">
         <div class="container mt-4 py-5">

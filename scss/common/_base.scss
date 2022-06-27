@@ -99,6 +99,11 @@ img {
 .btn-outline-primary {
     color: $primary !important;
     border-color: $primary !important;
+    font-weight: $text-bold;
+    font-size: $text-sm !important;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    line-height: 52px;
 }
 
 .btn-outline-primary:hover,
@@ -214,6 +219,7 @@ img {
     100% {
       box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0); 
     } 
+}
 
 .tag {
     display: inline-block;

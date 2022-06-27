@@ -11,9 +11,11 @@ window.addEventListener("scroll", () => {
         // down
         // console.log('Last scroll ' + lastScroll);
         navContainer.classList.remove('my-2');
+        navContainer.classList.add('py-1');
     } else if (currentScroll < lastScroll && currentScroll <= 99) {
         // up
         navContainer.classList.add('my-2');
+        navContainer.classList.remove('py-1');
 
     }
 

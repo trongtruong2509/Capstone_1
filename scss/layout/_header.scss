@@ -31,11 +31,10 @@
                     }
                 }
             }
-    
-            .btn {
-                padding: 1rem 1.875rem !important;
-            }
+        }    
+        
+        @media screen and (max-width:992px) {
+            padding: 2px 0 !important;
         }
-       
     }
 }
