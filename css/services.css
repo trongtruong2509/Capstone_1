@@ -2,14 +2,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css");
 .fs-7 {
   font-size: 0.875rem !important;
 }
@@ -111,6 +117,21 @@ img {
   height: auto;
 }
 
+.img-circle {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #dc4f72;
+}
+.img-circle img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .btn-outline-primary {
   color: #dc4f72 !important;
   border-color: #dc4f72 !important;
@@ -174,6 +195,7 @@ img {
   font-size: 1rem;
   line-height: 20px;
   font-weight: 700;
+  font-family: "Nunito", sans-serif;
   color: #dc4f72;
   text-transform: uppercase;
   margin-bottom: 0.375rem;
@@ -208,6 +230,27 @@ img {
 
 .text-primary {
   color: #dc4f72 !important;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-bottom: 15px;
+}
+.tag.tag-red {
+  background-color: rgba(238, 97, 120, 0.2);
+  color: #dc4f72;
+}
+.tag.tag-green {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.tag.tag-blue {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
 }
 
 .fs-7 {
@@ -311,6 +354,21 @@ img {
   height: auto;
 }
 
+.img-circle {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #dc4f72;
+}
+.img-circle img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .btn-outline-primary {
   color: #dc4f72 !important;
   border-color: #dc4f72 !important;
@@ -374,6 +432,7 @@ img {
   font-size: 1rem;
   line-height: 20px;
   font-weight: 700;
+  font-family: "Nunito", sans-serif;
   color: #dc4f72;
   text-transform: uppercase;
   margin-bottom: 0.375rem;
@@ -408,6 +467,27 @@ img {
 
 .text-primary {
   color: #dc4f72 !important;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-bottom: 15px;
+}
+.tag.tag-red {
+  background-color: rgba(238, 97, 120, 0.2);
+  color: #dc4f72;
+}
+.tag.tag-green {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.tag.tag-blue {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
 }
 
 .page-header .navbar .container {
@@ -540,6 +620,21 @@ img {
   height: auto;
 }
 
+.img-circle {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #dc4f72;
+}
+.img-circle img {
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .btn-outline-primary {
   color: #dc4f72 !important;
   border-color: #dc4f72 !important;
@@ -603,6 +698,7 @@ img {
   font-size: 1rem;
   line-height: 20px;
   font-weight: 700;
+  font-family: "Nunito", sans-serif;
   color: #dc4f72;
   text-transform: uppercase;
   margin-bottom: 0.375rem;
@@ -637,6 +733,27 @@ img {
 
 .text-primary {
   color: #dc4f72 !important;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 5px 16px;
+  margin-bottom: 15px;
+}
+.tag.tag-red {
+  background-color: rgba(238, 97, 120, 0.2);
+  color: #dc4f72;
+}
+.tag.tag-green {
+  background-color: rgba(0, 128, 0, 0.2);
+  color: #008000;
+}
+.tag.tag-blue {
+  background-color: rgba(0, 0, 255, 0.2);
+  color: #0000ff;
 }
 
 .footer {
@@ -680,7 +797,7 @@ img {
 }
 .footer a:hover {
   opacity: 0.8;
-  color: #dc4f72;
+  color: #dc4f72 !important;
 }
 .footer .footer-form {
   background-color: #fff;
