@@ -253,6 +253,10 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 .tag {
   display: inline-block;
   font-size: 13px;
@@ -511,6 +515,10 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 .tag {
   display: inline-block;
   font-size: 13px;
@@ -557,9 +565,17 @@ img {
 .page-header .navbar .container .nav-link:hover::after, .page-header .navbar .container .dropdown-item:hover::after {
   width: 40%;
 }
+<<<<<<< HEAD
 .page-header .navbar .container .dropdown-item:hover::after {
   width: 20%;
 }
+=======
+
+.page-header .navbar .container .dropdown-item:hover::after {
+  width: 20%;
+}
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 @media screen and (max-width: 992px) {
   .page-header .navbar {
     padding: 2px 0 !important;
@@ -803,6 +819,10 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 .tag {
   display: inline-block;
   font-size: 13px;

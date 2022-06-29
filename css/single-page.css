@@ -253,6 +253,10 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 .tag {
   display: inline-block;
   font-size: 13px;
@@ -511,6 +515,10 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 .tag {
   display: inline-block;
   font-size: 13px;
@@ -557,9 +565,17 @@ img {
 .page-header .navbar .container .nav-link:hover::after, .page-header .navbar .container .dropdown-item:hover::after {
   width: 40%;
 }
+<<<<<<< HEAD
 .page-header .navbar .container .dropdown-item:hover::after {
   width: 20%;
 }
+=======
+
+.page-header .navbar .container .dropdown-item:hover::after {
+  width: 20%;
+}
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 @media screen and (max-width: 992px) {
   .page-header .navbar {
     padding: 2px 0 !important;
@@ -573,23 +589,43 @@ img {
   background-color: #F7F9FC;
   font-size: 14px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 @media (max-width: 992px) {
   .breadcrumb-nav {
     margin-top: 70px !important;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 .breadcrumb-nav .breadcrumb {
   padding: 15px 0;
   margin-bottom: 0 !important;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 @media screen and (max-width: 1040px) {
   .breadcrumb-nav .breadcrumb {
     padding: 10px 0 !important;
   }
 }
+<<<<<<< HEAD
 .breadcrumb-nav a {
   color: #dc4f72;
 }
+=======
+
+.breadcrumb-nav a {
+  color: #dc4f72;
+}
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 .breadcrumb-nav a:hover {
   text-decoration: underline;
 }
@@ -835,6 +871,10 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52a8f1b52f4ee61cba16e630a9bc9217cb71c127
 .tag {
   display: inline-block;
   font-size: 13px;
