@@ -1,7 +1,7 @@
 const body = document.body;
 const navContainer = document.querySelector(".page-header nav .container");
-// const menu = document.querySelector(".page-header .menu");
 
+// Header scroll animation
 let lastScroll = 0;
 
 window.addEventListener("scroll", () => {
