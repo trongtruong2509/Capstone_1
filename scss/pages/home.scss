@@ -7,7 +7,7 @@
 
     .content {
         position: relative;
-        background-image: linear-gradient(to right, $white, rgba($white, 0.92)), url("./src/img/banner.jpg");
+        background-image: linear-gradient(to right, $white, rgba($white, 0.92)), url("./../src/img/banner.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -170,7 +170,7 @@
 
 .slogan {
     min-height: 480px;
-    background-image: linear-gradient(to right, rgba($black, .7), rgba($black, .33)), url("./src/img/bg.jpg");
+    background-image: linear-gradient(to right, rgba($black, .7), rgba($black, .33)), url("./../src/img/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,7 +340,7 @@
                 &::after {
                     width: 0.9rem;
                     height: 0.9rem;
-                    background-image: url('./src/img/angle-down.png');
+                    background-image: url('./../src/img/angle-down.png');
                     background-size: 0.9rem;
                 }
 
@@ -476,7 +476,7 @@
 }
 
 .testimonials {
-    background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url("./src/img/b2.jpg");
+    background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url("./../src/img/b2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
