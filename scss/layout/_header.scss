@@ -9,8 +9,10 @@
                 font-size: 1.625rem !important;
                 font-weight: 900 !important;
             }
+
+            
     
-            .nav-link {
+            .nav-link, .dropdown-item {
                 display: inline-block !important;
                 transition: all 0.3s;
 
@@ -29,6 +31,12 @@
                     &::after {
                         width: 40%;
                     }
+                }
+            }
+
+            .dropdown-item:hover {
+                &::after {
+                    width: 20%;
                 }
             }
         }    
