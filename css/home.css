@@ -1034,7 +1034,7 @@ img {
 
 .banner .content {
   position: relative;
-  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url("/src/img/banner.jpg");
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url("./src/img/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1189,7 +1189,7 @@ img {
 
 .slogan {
   min-height: 480px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url("/src/img/bg.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url("./src/img/bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1351,7 +1351,7 @@ img {
 .faq .content .faq-item .accordion-button::after {
   width: 0.9rem;
   height: 0.9rem;
-  background-image: url("/src/img/angle-down.png");
+  background-image: url("./src/img/angle-down.png");
   background-size: 0.9rem;
 }
 
@@ -1474,7 +1474,7 @@ img {
 }
 
 .testimonials {
-  background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url("/src/img/b2.jpg");
+  background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url("./src/img/b2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
