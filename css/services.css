@@ -263,10 +263,7 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> ab0819e6c16f7834bdec99c3fa0c96fb04e803d1
 .tag {
   display: inline-block;
   font-size: 13px;
@@ -538,10 +535,7 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> ab0819e6c16f7834bdec99c3fa0c96fb04e803d1
 .tag {
   display: inline-block;
   font-size: 13px;
@@ -596,14 +590,11 @@ img {
 .page-header .navbar .container .nav-link:hover::after, .page-header .navbar .container .dropdown-item:hover::after {
   width: 40%;
 }
-<<<<<<< HEAD
-=======
 
 .page-header .navbar .container .dropdown-item:hover::after {
   width: 20%;
 }
 
->>>>>>> ab0819e6c16f7834bdec99c3fa0c96fb04e803d1
 @media screen and (max-width: 992px) {
   .page-header .navbar {
     padding: 2px 0 !important;
@@ -617,13 +608,6 @@ img {
   background-color: #F7F9FC;
   font-size: 14px;
 }
-<<<<<<< HEAD
-@media (max-width: 992px) {
-  .breadcrumb-nav {
-    margin-top: 80px !important;
-  }
-}
-=======
 
 @media (max-width: 992px) {
   .breadcrumb-nav {
@@ -631,31 +615,21 @@ img {
   }
 }
 
->>>>>>> ab0819e6c16f7834bdec99c3fa0c96fb04e803d1
 .breadcrumb-nav .breadcrumb {
   padding: 15px 0;
   margin-bottom: 0 !important;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> ab0819e6c16f7834bdec99c3fa0c96fb04e803d1
 @media screen and (max-width: 1040px) {
   .breadcrumb-nav .breadcrumb {
     padding: 10px 0 !important;
   }
 }
-<<<<<<< HEAD
-.breadcrumb-nav a {
-  color: #dc4f72;
-}
-=======
 
 .breadcrumb-nav a {
   color: #dc4f72;
 }
 
->>>>>>> ab0819e6c16f7834bdec99c3fa0c96fb04e803d1
 .breadcrumb-nav a:hover {
   text-decoration: underline;
 }
@@ -911,10 +885,7 @@ img {
     box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.15), 0 0 0 20px rgba(255, 255, 255, 0.15), 0 0 0 40px rgba(50, 100, 245, 0);
   }
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> ab0819e6c16f7834bdec99c3fa0c96fb04e803d1
 .tag {
   display: inline-block;
   font-size: 13px;
