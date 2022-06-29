@@ -13,12 +13,12 @@ img {
     transition: 0.5s all;
 
     &:hover {
-        transform: translateY(-2%);
+        transform: translateY(-5%);
     }
 }
 
 .wraper {
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
 }
 
@@ -292,6 +292,7 @@ img {
             color: $black;
             font-size: $text-base;
             font-weight: $text-semiBold;
+            font-family: inherit;
             line-height: 26px;
             width: 100%;
             outline: none;
@@ -302,6 +303,7 @@ img {
             background-color: $bg-color-light;
 
             &:focus {
+                outline: none;
                 border: 1px solid $primary;
                 background-color: $white;
                 box-shadow: none;
