@@ -127,6 +127,12 @@ img {
             &.left {
                 grid-template-columns: 23% 72%;
 
+                &:hover {
+                    p {
+                        color: $primary;
+                    }
+                }
+
                 @media (max-width: 767px) {
                     grid-template-columns: 100%;
                     gap: 0%;
@@ -135,6 +141,12 @@ img {
 
             &.right {
                 grid-template-columns: 72% 23%;
+
+                &:hover {
+                    p {
+                        color: $primary;
+                    }
+                }
 
                 @media (max-width: 767px) {
                     grid-template-columns: 100%;
@@ -157,14 +169,6 @@ img {
                 line-height: 25px;
                 margin: 0;
                 transition: 0.3s all;
-            }
-        }
-
-        &:hover {
-            .post-view {
-                p {
-                    color: $primary;
-                }
             }
         }
     }
